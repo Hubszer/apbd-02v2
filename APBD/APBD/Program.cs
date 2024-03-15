@@ -19,3 +19,4 @@ static double GetAvg(int[] numb)
 int[] numbers = {1,2,3,4};
 double avg = GetAvg(numbers);
 Console.WriteLine(avg);
+Console.WriteLine(avg);
