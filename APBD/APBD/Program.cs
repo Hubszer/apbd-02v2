@@ -5,7 +5,7 @@ Console.WriteLine("Modyfikacja 1");
 Console.WriteLine("Modyfikacja 2");
 Console.WriteLine("Modyfikacja 3");
 
-static double GetAvg(int[] numb)
+static double GettingAvg(int[] numb)
 {
     int sum = 0;
     foreach (var num in numb)
