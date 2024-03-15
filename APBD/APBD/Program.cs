@@ -20,3 +20,19 @@ int[] numbers = {1,2,3,4};
 double avg = GetAvg(numbers);
 Console.WriteLine(avg);
 Console.WriteLine(avg);
+
+
+static int FindMax(int[] numb)
+{
+    int max = numb[0];
+    for (int i = 0; i < numb.Length; i++)
+    {
+        if (numb[i] > max)
+        {
+            max = numb[i];
+        }
+    }
+}
+
+int fMax = FindMax(numbers)
+Console.WriteLine(fMax);
